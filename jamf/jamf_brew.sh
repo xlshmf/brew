@@ -1,6 +1,8 @@
 #!/bin/bash
 set -u
 
+#应该不行，虽然跳过了用户输入Return，但是还是要输入密码
+
 # First check if the OS is Linux.
 if [[ "$(uname)" = "Linux" ]]; then
   HOMEBREW_ON_LINUX=1
